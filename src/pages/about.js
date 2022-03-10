@@ -1,5 +1,12 @@
 import React from "react"
 
-export default function Home() {
-  return <div>About Page!</div>
+const About = () => {
+  return (
+    
+      <h1 className="text-success">
+        About</h1>
+    
+  )
 }
+
+export default About
